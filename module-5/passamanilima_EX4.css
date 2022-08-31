@@ -1,0 +1,48 @@
+
+  #container{
+      background-color: rgba(247, 112, 24, 0.2);
+  }
+  #image-gallery{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 10%;
+  }
+  h1, h3, figure{
+      text-align: center;
+  }
+
+  img{
+    width: 400px;
+    height: 350px;
+}
+
+  h1, h3, figcaption{
+     font-family: 'Oswald', sans-serif;
+     font-weight: 400;
+     color: rgb(185, 63, 8);
+  }
+  figcaption{
+      font-style: italic;
+      font-size: .75em;
+  }
+  #image-gallery div{
+      border: 1px solid rgb(185, 63, 8); 
+      border-radius: 15px; 
+      padding: 5px;
+  }
+  a {
+    text-decoration: none;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    float: right;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color:blueviolet;
+
+
+}
