@@ -1,0 +1,119 @@
+header {
+    background-color: rgb(19, 35, 80);
+    color:white;
+    padding: 20px;
+    text-align: center;
+
+
+}
+h1 {
+    font-weight: 400;
+
+}
+
+#splitbar
+{
+	display: block;
+	overflow:hidden;
+	background-color: green;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: rgb(19, 35, 80);
+    border-bottom: 15px;
+    border-bottom-color: rgb(30, 51, 108);
+	padding-bottom:0.5%;
+    
+
+}
+
+
+
+#navbar a {
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+#navbar a:hover {
+    text-decoration: underline;
+    color:rgb(255, 0, 200);
+    background-color: rgb(19, 35, 80);
+}
+
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+		box-sizing: content-box;
+
+}
+.card {
+	width:30%;
+    transition: 0.3s;
+	box-shadow: 5px 5px 5px 5px #888888;
+	box-sizing: content-box;
+
+}
+
+.card-title{
+    text-align: left;
+    font-size: 2em;
+    color: red;
+    font-weight: 400;
+	padding: 2px 16px;
+}
+
+.card-content {
+    padding: 2px 16px;
+    
+}
+#card-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+}
+#footer {
+    background-color: rgb(19, 35, 80);
+    position: fixed;
+    bottom:0;
+	left:0;
+	right:0;
+    width:98%;
+	margin-left:1%;
+	margin-right:1%;
+	height:50px;
+
+}
+
+
+
+
+#footer a {
+
+    float: right;
+    padding-right: 10px;
+	padding-top:17px;
+    font-style: italic;
+    background-color: rgb(19, 35, 80);
+    bottom: 0;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+a:hover {
+    text-decoration: underline;
+    color:rgb(255, 0, 200);
+    background-color: rgb(19, 35, 80);
+
+
+}
