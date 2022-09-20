@@ -1,3 +1,6 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
 header {
     background-color: rgb(19, 35, 80);
     color:white;
@@ -46,15 +49,16 @@ h1 {
 }
 
 #container {
-    margin-top: 2%;
+    /*margin-top: 2%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%;*/
+    margin: 2% 5% 100px 5%;
     padding: 10px;
 		box-sizing: content-box;
 
 }
 .card {
-	width:30%;
+	width:50%;
     transition: 0.3s;
 	box-shadow: 5px 5px 5px 5px #888888;
 	box-sizing: content-box;
@@ -62,7 +66,7 @@ h1 {
 }
 
 .card-title{
-    text-align: left;
+    text-align: center;
     font-size: 2em;
     color: red;
     font-weight: 400;
@@ -116,4 +120,25 @@ a:hover {
     background-color: rgb(19, 35, 80);
 
 
+}
+.movies {
+    width:100%;
+    border-collapse: collapse;
+   margin-bottom:30px;
+  
+}
+.movies th {
+    padding-top:12px;
+    padding-bottom:12px;
+  /*  padding: 12px 0px 12px 0px*/
+    text-align:left;
+    background-color: rgb(19, 35, 80);
+    border: 1px solid #ddd;
+    color:white;
+    padding-left:8px;
+ 
+}
+.movies td {
+    border: 1px solid #ddd;
+    padding:8px;
 }
