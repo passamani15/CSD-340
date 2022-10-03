@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'Tiro Bangla', sans-serif;
+    background-color:#ffffff ;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #E8CAFF;
+    float: right;
+    width: 100%;
+    box-shadow: -18px 3px 5px 0px #d5cece;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #210031;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Tiro Bangla', serif;
+  }
